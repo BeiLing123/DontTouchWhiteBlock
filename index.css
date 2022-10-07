@@ -1,0 +1,52 @@
+/* 顶部 */
+h2{
+    text-align: center;
+}
+/* 整体 */
+#main{
+    width: 408px;
+    height: 408px;
+    background-color:white;
+    border: 2px solid gray;
+    margin: 0 auto;  /* 整体界面居中 */
+    overflow: hidden;
+}
+/* 游戏界面 */
+#con{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -408px;  /* 隐藏所有格子 */
+    border-collapse: collapse;  /* 单元格边框合并 */
+}
+/* 行部分 */
+.row{
+    height: 100px;
+    width: 100%;
+}
+/* 块部分 */
+.cell{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: rgb(54,74,129) 1px solid;
+}
+.black{
+    background-color: black;
+}
+
+/* 开始 */
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.start{
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #517EA5;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+}
